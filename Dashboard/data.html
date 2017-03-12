@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Static Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="bootstrap/dist/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-static-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+   <script type="text/javascript">
+      google.charts.load('current', {'packages':['gauge']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Temperature', 0]
+        ]);
+
+        var options = {
+          width: 400, height: 400,
+          redFrom: 90, redTo: 1000,
+          yellowFrom:75, yellowTo: 90,
+          minorTicks: 5
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('temp'));
+
+        chart.draw(data, options);
+
+        setInterval(function(){
+          var JSON=$.ajax({
+            url:"http://localhost/data.php",
+            dataType:'json',
+            async: false}).responseText;
+          var Respuesta = jQuery.parseJSON(JSON);
+
+          data.setValue(0, 1, Respuesta[0].TEMPERATURA);
+          chart.draw(data, options);
+        }, 1300);
+      }
+    </script>
+  </head>
+  <body>  
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>FI-city</h1>
+        <p>Comienza la oportunidad para controlar el pulso de tu ciudad, cuida tu mundo, cuídate ! Todo a LOW COST.</p>
+        </p>
+      </div>
+
+      <div class="row">
+        <div class ="col-md-3 text-center" >
+          <h1>Temperatura actual Sevilla </h1>
+        </div>
+      <div class ="col-md-3" id="temp"></div>
+      </div>
+
+        
+       
+        
+    </div> <!-- /container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src=" /bootstrap/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/bootstrap/js/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
