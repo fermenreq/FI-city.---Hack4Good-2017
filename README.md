@@ -13,7 +13,12 @@ The project can be divided in two aspects and its described on "Fi-city.pdf" doc
 By the end, we did a Demo running in a local machine. It capure the temperature and show in real time on a dashboard. 
 You can see it here: https://www.youtube.com/watch?v=hZqHy68y2qs
 
- # Members of the project
+# Summary of prizes at the seat of Seville
+- http://institucional.us.es/catedratel/?p=3027  
+
+# Members of the project & Contact
 - Fernando Méndez Requena - CEO & Sofware Developer https://es.linkedin.com/in/fmendez1 
 - Miguel Angel Requena Serrano - Hardware Developer https://www.linkedin.com/in/miguel-angel-requena-serrano/
 - Javier Capilla Martinez - Desinger Graphical Marketing  
+
+
