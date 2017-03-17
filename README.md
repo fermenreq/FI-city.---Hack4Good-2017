@@ -14,6 +14,6 @@ You can see it here: https://www.youtube.com/watch?v=hZqHy68y2qs
 
 -Members of the project
 
-- Fernando Méndez Requena - CEO & Sofware Developer
-- Miguel Angel Requena Serrano - Hardware Developer
-- Javier Capilla Martinez - Desinger Graphical Marketing 
+- Fernando Méndez Requena - CEO & Sofware Developer https://es.linkedin.com/in/fmendez1 
+- Miguel Angel Requena Serrano - Hardware Developer https://www.linkedin.com/in/miguel-angel-requena-serrano/
+- Javier Capilla Martinez - Desinger Graphical Marketing  
