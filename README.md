@@ -1,4 +1,4 @@
-# FI-city.-Hack4Good 2017
+# FI-city. - Hack4Good 2017 Sevilla
 
 HackForGood is an event promoted by Telefónica and organized together with the ETSI Telecommunication of the Polytechnic University of Madrid, the HazloPosible Foundation and the startup MashmeTV with the support of the Telefónica Chairs Network in which Hackers ForGood throughout Spain propose challenges and develop Solutions to build a better world.
 
