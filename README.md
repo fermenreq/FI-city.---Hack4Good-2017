@@ -16,9 +16,7 @@ You can see it here: https://www.youtube.com/watch?v=hZqHy68y2qs
 # Summary of prizes at the seat of Seville
 - http://institucional.us.es/catedratel/?p=3027  
 
-# Members of the project & Contact
+# Team Googleplex. Members of the project
 - Fernando Méndez Requena - CEO & Sofware Developer https://es.linkedin.com/in/fmendez1 
 - Miguel Angel Requena Serrano - Hardware Developer https://www.linkedin.com/in/miguel-angel-requena-serrano/
 - Javier Capilla Martinez - Desinger Graphical Marketing  
-
-
