@@ -23,4 +23,4 @@ You can see it here: https://www.youtube.com/watch?v=hZqHy68y2qs
 
 *** 
 NOTE: 
-We are currently working on this project in order to implement it using FIWARE and Docker technology
+We are currently working on this project in order to implement FIWARE and Docker technology
